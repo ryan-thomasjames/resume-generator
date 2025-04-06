@@ -13,6 +13,9 @@ const PORT = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+
+const cors = require('cors');
+app.use(cors());
 // Serve static files from the "public" folder
 app.use(express.static('public'));
 
