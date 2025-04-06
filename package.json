@@ -1,10 +1,11 @@
 {
   "name": "resume-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "resume-generator/\r ├── public/\r │   ├── index.html     # Your main HTML file\r │   ├── style.css      # Your CSS file for styling\r │   └── script.js      # Your JavaScript file for interactivity\r ├── server.js          # Your Node.js backend code\r ├── package.json       # Project configuration and dependencies\r └── node_modules/      # Installed npm packages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,13 @@
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "jspdf": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryan-thomasjames/resume-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryan-thomasjames/resume-generator/issues"
+  },
+  "homepage": "https://github.com/ryan-thomasjames/resume-generator#readme"
 }
